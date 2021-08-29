@@ -1,0 +1,20 @@
+app:
+    package: mycompany.weird-nape
+    name: weird-nape
+    displayName: weird-nape
+    author: My Company
+    version: '1.0'
+
+    libs:
+        #- somelib
+        #- somelib: someversion
+        #- somelib: git:https://github.com/somelibauthor/somelib.git
+    
+    plugins:
+        - clay
+        - nape
+    
+    defines:
+        #- some_define
+        #- some_define: 'some value'
+
